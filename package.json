@@ -8,7 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -d && node gen-flow.js",
-    "format": "prettier --write 'src/**/*.ts'"
+    "format": "prettier --write 'src/**/*.ts'",
+    "check-git-clean": "./check-git-clean.sh"
   },
   "devDependencies": {
     "flowgen": "1.17.0",
