@@ -1,4 +1,5 @@
 # @freckle/exhaustive-js
+
 Provides a helper function for checking exhaustiveness. Exhaustiveness checking is a feature of a language where the type checker guarantees that all cases were covered.
 
 ## Usage
@@ -21,6 +22,7 @@ function getStatusMessage(status: Status): string {
 ```
 
 Usage in a reducer where returning the state itself in the default case is a common pattern:
+
 ```js
 import {exhaustiveReducer} from '@freckle/exhaustive-js'
 
