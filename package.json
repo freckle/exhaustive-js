@@ -1,5 +1,5 @@
 {
-  "name": "exhaustive-js",
+  "name": "@freckle/exhaustive-js",
   "version": "1.0.0",
   "description": "Provides a helper function for checking exhaustivenes",
   "main": "./dist/index.js",
