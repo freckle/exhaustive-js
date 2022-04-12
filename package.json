@@ -1,0 +1,19 @@
+{
+  "name": "@freckle/exhaustive-js",
+  "version": "1.0.0",
+  "description": "Provides a helper function for checking exhaustivenes",
+  "main": "./dist/index.js",
+  "repository": "https://github.com/freckle/exhaustive-js.git",
+  "author": "Freckle",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -d && node gen-flow.js",
+    "format": "prettier --write 'src/**/*.ts'",
+    "check-git-clean": "./check-git-clean.sh"
+  },
+  "devDependencies": {
+    "flowgen": "1.17.0",
+    "prettier": "2.6.2",
+    "typescript": "4.6.3"
+  }
+}
