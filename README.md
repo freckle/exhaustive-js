@@ -1,7 +1,5 @@
 # @freckle/exhaustive-js
 
-# Not actively maintained
-
 Provides a helper function for checking exhaustiveness. Exhaustiveness checking is a feature of a language where the type checker guarantees that all cases were covered.
 
 ## Usage
