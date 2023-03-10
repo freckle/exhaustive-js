@@ -1,6 +1,6 @@
 {
-  "name": "@freckle/exhaustive-js",
-  "version": "1.0.0",
+  "name": "@freckle/exhaustive",
+  "version": "1.0.1",
   "description": "Provides a helper function for checking exhaustivenes",
   "main": "./dist/index.js",
   "repository": "https://github.com/freckle/exhaustive-js.git",
