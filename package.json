@@ -12,7 +12,7 @@
     "check-git-clean": "./check-git-clean.sh"
   },
   "devDependencies": {
-    "flowgen": "1.17.0",
+    "flowgen": "1.21.0",
     "prettier": "2.6.2",
     "typescript": "4.6.3"
   }
