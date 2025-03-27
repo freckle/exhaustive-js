@@ -79,10 +79,10 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-flowgen@1.17.0:
-  version "1.17.0"
-  resolved "https://registry.yarnpkg.com/flowgen/-/flowgen-1.17.0.tgz#5086a26edeb325351922d01d0f432c002330a4fd"
-  integrity sha512-cV0ASM71xDIDlEmejjNlVXmXtGOPsbzCm9dtmd4Kbn5y2+onax1W9s1NFZH0c18PuGSfbWjkQdSzbWcHjX/poQ==
+flowgen@1.21.0:
+  version "1.21.0"
+  resolved "https://registry.yarnpkg.com/flowgen/-/flowgen-1.21.0.tgz#f7ecb693892c4bd069492dbf77db561bbb451aa9"
+  integrity sha512-pFNFFyMLRmW6njhOIm5TrbGUDTv64aujmys2KrkRE2NYD8sXwJUyicQRwU5SPRBRJnFSD/FNlnHo2NnHI5eJSw==
   dependencies:
     "@babel/code-frame" "^7.16.7"
     "@babel/highlight" "^7.16.7"
