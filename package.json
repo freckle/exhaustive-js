@@ -14,6 +14,6 @@
   "devDependencies": {
     "flowgen": "1.21.0",
     "prettier": "3.8.1",
-    "typescript": "4.9.5"
+    "typescript": "5.9.3"
   }
 }
