@@ -6,6 +6,7 @@
   "repository": "https://github.com/freckle/exhaustive-js.git",
   "author": "Freckle",
   "license": "MIT",
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "build": "tsc -d && node gen-flow.js",
     "format": "prettier --write 'src/**/*.ts'",
@@ -14,6 +15,6 @@
   "devDependencies": {
     "flowgen": "1.21.0",
     "prettier": "3.8.2",
-    "typescript": "4.9.5"
+    "typescript": "6.0.2"
   }
 }
