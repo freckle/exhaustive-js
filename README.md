@@ -44,3 +44,7 @@ function todoReducer(
   }
 }
 ```
+
+## Release
+
+See [RELEASE.md](./RELEASE.md) for more details.
