@@ -1,9 +1,5 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
-exports.exhaustive = exhaustive;
-exports.exhaustiveReducer = exhaustiveReducer;
 // Validate that a switch/case is exhaustive
-function exhaustive(x, ty) {
+export function exhaustive(x, ty) {
     const prefix = ty === undefined || ty === null ? 'Unrecognized tag' : `Unrecognized tag for ${ty}`;
     throw new Error(`${prefix}: ${saferStringify(x)}`);
 }
@@ -11,7 +7,7 @@ function exhaustive(x, ty) {
 //
 // In the failing case the provided state will be returned
 //
-function exhaustiveReducer(_x, state) {
+export function exhaustiveReducer(_x, state) {
     return state;
 }
 // JSON.stringify ignores undefined and throws on circular objects
