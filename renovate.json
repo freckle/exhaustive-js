@@ -3,12 +3,5 @@
   "extends": [
     "local>freckle/renovate-config"
   ],
-  "minimumReleaseAge": "0 days",
-  "packageRules": [
-    {
-      "description": "typescript-eslint hard-errors on TypeScript 7.x; see PR #54 which previously bumped this repo to 7.0.2",
-      "matchPackageNames": ["typescript"],
-      "allowedVersions": "<7"
-    }
-  ]
+  "minimumReleaseAge": "0 days"
 }
