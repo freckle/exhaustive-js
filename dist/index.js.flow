@@ -1,3 +1,0 @@
-//@flow
-declare export function exhaustive(x: empty, ty?: string): empty;
-declare export function exhaustiveReducer<T>(_x: empty, state: T): T;
