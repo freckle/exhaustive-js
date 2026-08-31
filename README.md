@@ -56,7 +56,7 @@ function todoReducer(
 ## Development
 
 - **Package manager**: pnpm (Node version pinned in `.nvmrc`)
-- `pnpm build` — `tsc` via `tsconfig.build.json`, then `gen-flow.cjs`; emits to `dist/`
+- `pnpm build` — `tsc` via `tsconfig.build.json`; emits to `dist/`
 - `pnpm test` — Vitest
 - `pnpm coverage` — Vitest with coverage, gated at 70% (lines/branches/functions/statements)
 - `pnpm typecheck` — `tsc --noEmit`, includes test files

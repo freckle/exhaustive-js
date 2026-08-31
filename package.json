@@ -14,7 +14,7 @@
     "url": "git+https://github.com/freckle/exhaustive-js.git"
   },
   "scripts": {
-    "build": "rm -r dist && tsc -p tsconfig.build.json && node gen-flow.cjs",
+    "build": "rm -r dist && tsc -p tsconfig.build.json",
     "test": "vitest run",
     "coverage": "vitest run --coverage",
     "typecheck": "tsc --noEmit",
@@ -27,7 +27,6 @@
     "@eslint/js": "^10.0.1",
     "@vitest/coverage-v8": "^4.1.11",
     "eslint": "^10.9.1",
-    "flowgen": "^1.21.0",
     "knip": "^6.32.3",
     "prettier": "^3.9.6",
     "typescript": "^6.0.3",
